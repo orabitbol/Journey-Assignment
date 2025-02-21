@@ -82,6 +82,8 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 ├── app.css
 └── index.html
 
+---
+
 
 ### Requirements:
 
