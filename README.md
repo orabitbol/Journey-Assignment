@@ -101,7 +101,7 @@ This project is an AI-powered consulting chat that simulates an interactive conv
    cd Journey-Assignment
    ```
 
-2. **Install Dependencies**:
+2. **Install and Start the Application**:
 
    ```Using npm:
    npm install ->  npm run dev
