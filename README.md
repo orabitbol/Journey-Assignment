@@ -81,6 +81,7 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 ├── main.tsx
 ├── app.css
 └── index.html
+```
 
 ---
 
@@ -117,7 +118,7 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 🌟 Live Demo:
 http://journey-assignment-1-two.vercel.app/
 
-
+---
 
 Ensure vercel.json handles routing for React Router.
 🎉 Future Improvements
