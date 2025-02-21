@@ -83,6 +83,11 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 └── index.html
 
 
+## Requirements
+
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn** package manager
+
 ## Installation
 
 1. **Clone the Repository**:
@@ -117,6 +122,7 @@ Ensure vercel.json handles routing for React Router.
 💾 Backend for storing chat history
 🌐 Multi-language support
 👤 Author
+
 OrAbitbol – http://journey-assignment-1-two.vercel.app/
 
 GitHub Repository: https://github.com/orabitbol/Journey-Assignment
