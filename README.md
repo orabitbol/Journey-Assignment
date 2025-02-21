@@ -104,14 +104,7 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 2. **Install Dependencies**:
 
    ```Using npm:
-   npm install ->  npm start
-   ```
-
-   
-3. **Run the App Locally**:
-
-   ```Start the development server:
-   npm install -> npm run dev
+   npm install ->  npm run dev
    ```
 
 
