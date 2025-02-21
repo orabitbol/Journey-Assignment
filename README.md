@@ -76,7 +76,6 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 ├── App.tsx
 ├── main.tsx
 └── utils
-
 📥 Getting Started
 ✅ Prerequisites
 Node.js (v14.x or later)
@@ -178,4 +177,3 @@ Ensure vercel.json handles routing for React Router.
 Ora Bitbol – http://journey-assignment-1-two.vercel.app/
 
 GitHub Repository: https://github.com/orabitbol/Journey-Assignment
-
