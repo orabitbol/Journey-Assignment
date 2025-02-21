@@ -68,14 +68,19 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 │   └── ThemeSwitch.tsx
 │
 ├── 📁 pages
-│   ├── chat
-│   │   └── Chat.tsx
-│   └── settings
+│   ├── 📁 chat
+│   │   ├── Chat.tsx
+│   │   └── Chat.css
+│   └── 📁 settings
 │       └── Settings.tsx
+│
+├── 📁 utils
+│   └── ChatInterfaces.ts
 │
 ├── App.tsx
 ├── main.tsx
-└── utils
+├── app.css
+└── index.html
 📥 Getting Started
 ✅ Prerequisites
 Node.js (v14.x or later)
