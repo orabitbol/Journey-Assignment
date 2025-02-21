@@ -93,8 +93,8 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 1. **Clone the Repository**:
 
    ```bash
-git clone https://github.com/orabitbol/Journey-Assignment.git
-cd Journey-Assignment
+   git clone https://github.com/orabitbol/Journey-Assignment.git
+   cd Journey-Assignment
    ```
 
 2. **Install Dependencies**:
