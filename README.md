@@ -1,141 +1,132 @@
-AI-Powered Chat for Consulting
+# AI-Powered Chat for Consulting
 
-📖 Overview
+## 📖 Overview
 
 This project is an AI-powered consulting chat that simulates an interactive conversation between a consultant and a client. Inspired by ChatGPT, it supports real-time message flow, bot responses, and message persistence, providing a smooth and engaging user experience.
 
-Live Demo: http://journey-assignment-1-two.vercel.app/
+**Live Demo:** [http://journey-assignment-1-two.vercel.app/](http://journey-assignment-1-two.vercel.app/)
 
-🛠️ Tech Stack
+---
 
-⚛️ React with Vite – Fast frontend framework
+## 🛠️ Tech Stack
 
-🌐 React Router – Navigation and routing
+- ⚛️ **React** with **Vite** – Fast frontend framework
+- 🌐 **React Router** – Navigation and routing
+- 🎨 **Material UI (MUI)** – Pre-built UI components
+- 💅 **styled-components** – Custom styling using MUI’s `styled` method
+- 🔌 **Mock API** or optional integration with **OpenAI API**
+- 🔄 **WebSockets** or **polling** for real-time effect
 
-🎨 Material UI (MUI) – Pre-built UI components
+---
 
-💅 styled-components – Custom styling using MUI’s styled method
+## 🚀 Features
 
-🔌 Mock API or optional integration with OpenAI API
+### 💬 **2.1 Chat Interface as Core Feature**
 
-🔄 WebSockets or polling for real-time effect
+- ✅ Real-time messaging with simulated bot responses
+- ✅ Typing indicator for natural conversation flow
+- ✅ Full-screen chat interface
+- ✅ Markdown support in bot responses *(Bonus)*
+- ✅ Persistent chat history using `localStorage`
 
-🚀 Features
+### 🤖 **2.2 AI-Driven Responses**
 
-💬 2.1 Chat Interface as Core Feature
+- ✅ Predefined mock API responses
+- ✅ Simulated AI-like responses with slight variations
+- ✅ Optional integration with **OpenAI API**
 
-✅ Real-time messaging with simulated bot responses
+### 🗺️ **2.3 Routing with React Router**
 
-✅ Typing indicator for natural conversation flow
+- `/chat/:sessionId` → Main chat interface
+- `/settings` → Chat settings (Dark Mode toggle, Reset History)
+- ✅ Multiple chat sessions using unique session IDs *(Bonus)*
 
-✅ Full-screen chat interface
+### 🎯 **Optimizations**
 
-✅ Markdown support in bot responses (Bonus)
+- ✅ WebSocket-based updates or polling for real-time effect
+- ✅ Debounced input handling to reduce re-renders
+- ✅ Lazy Load Messages when scrolling up *(Bonus)*
 
-✅ Persistent chat history using localStorage
+### 🎨 **UI and Styling**
 
-🤖 2.2 AI-Driven Responses
+- ✅ Material UI for layout (chat bubbles, inputs, buttons)
+- ✅ `styled-components` for custom themes
+- ✅ Message animations (fade-in on receive) *(Bonus)*
+- ✅ Timestamps and sender avatars *(Bonus)*
+- ✅ Dark Mode Toggle using MUI’s ThemeProvider
 
-✅ Predefined mock API responses
+---
 
-✅ Simulated AI-like responses with slight variations
+## 📁 Project Structure
 
-✅ Optional integration with OpenAI API
+📂 src ├── 📁 components │ ├── ChatHeader.tsx │ ├── MessageInput.tsx │ ├── MessageList.tsx │ └── ThemeSwitch.tsx │ ├── 📁 pages │ ├── chat │ │ └── Chat.tsx │ └── settings │ └── Settings.tsx │ ├── App.tsx ├── main.tsx └── utils
 
-🗺️ 2.3 Routing with React Router
+yaml
+Copy
+Edit
 
-/chat/:sessionId → Main chat interface
+---
 
-/settings → Chat settings (Dark Mode toggle, Reset History)
+## 📥 Getting Started
 
-✅ Multiple chat sessions using unique session IDs (Bonus)
+### 1️⃣ Clone the Repository:
 
-🎯 Optimizations
-
-✅ WebSocket-based updates or polling for real-time effect
-
-✅ Debounced input handling to reduce re-renders
-
-✅ Lazy Load Messages when scrolling up (Bonus)
-
-🎨 UI and Styling
-
-✅ Material UI for layout (chat bubbles, inputs, buttons)
-
-✅ styled-components for custom themes
-
-✅ Message animations (fade-in on receive) (Bonus)
-
-✅ Timestamps and sender avatars (Bonus)
-
-✅ Dark Mode Toggle using MUI’s ThemeProvider
-
-📁 Project Structure
-
-📂 src
-├── 📁 components
-│   ├── ChatHeader.tsx
-│   ├── MessageInput.tsx
-│   ├── MessageList.tsx
-│   └── ThemeSwitch.tsx
-│
-├── 📁 pages
-│   ├── chat
-│   │   └── Chat.tsx
-│   └── settings
-│       └── Settings.tsx
-│
-├── App.tsx
-├── main.tsx
-└── utils
-
-📥 Getting Started
-
-Clone the repo:
-
+```bash
 git clone https://github.com/orabitbol/Journey-Assignment.git
 cd Journey-Assignment
-
-Install dependencies:
-
+2️⃣ Install Dependencies:
+bash
+Copy
+Edit
 npm install
-
-Run locally:
-
+3️⃣ Run Locally:
+bash
+Copy
+Edit
 npm run dev
+The app will be available at:
 
-Build for production:
-
+arduino
+Copy
+Edit
+http://localhost:5173
+📦 Build for Production:
+bash
+Copy
+Edit
 npm run build
-
-Preview build:
-
+👁️ Preview the Production Build:
+bash
+Copy
+Edit
 npm run preview
+This will serve the built app locally for testing.
 
-🌐 Deployment
+🌐 Deployment Instructions
+The project is deployed on Vercel using a vercel.json file for routing and build configuration.
 
-The project is deployed on Vercel. The deployment configuration uses a vercel.json file to handle routing and static builds.
+Live Demo:
+http://journey-assignment-1-two.vercel.app/
 
-Live Demo: http://journey-assignment-1-two.vercel.app/
+To deploy it yourself:
+Push to GitHub:
 
-If you wish to deploy it yourself:
+bash
+Copy
+Edit
+git push origin main
+Connect GitHub to Vercel:
 
-Push to GitHub.
+Go to Vercel and link your repository.
+Set Vercel Build Settings:
 
-Connect your GitHub repo to Vercel.
-
-Set the build command to npm run build and output directory to dist.
-
+Build Command: npm run build
+Output Directory: dist
 🎉 Future Improvements
-
 🤖 Integrate with real OpenAI API for smarter responses
-
 💾 Backend for storing chat history
-
 🌐 Multi-language support
-
 👤 Author
-
 Ora Bitbol – http://journey-assignment-1-two.vercel.app/
 
 GitHub Repository: https://github.com/orabitbol/Journey-Assignment
