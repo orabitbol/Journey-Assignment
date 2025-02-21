@@ -59,74 +59,20 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 
 ## 📁 Project Structure
 
-📂 src ├── 📁 components │ ├── ChatHeader.tsx │ ├── MessageInput.tsx │ ├── MessageList.tsx │ └── ThemeSwitch.tsx │ ├── 📁 pages │ ├── chat │ │ └── Chat.tsx │ └── settings │ └── Settings.tsx │ ├── App.tsx ├── main.tsx └── utils
-
-yaml
-Copy
-Edit
-
----
-
-## 📥 Getting Started
-
-### 1️⃣ Clone the Repository:
-
-```bash
-git clone https://github.com/orabitbol/Journey-Assignment.git
-cd Journey-Assignment
-2️⃣ Install Dependencies:
-bash
-Copy
-Edit
-npm install
-3️⃣ Run Locally:
-bash
-Copy
-Edit
-npm run dev
-The app will be available at:
-
-arduino
-Copy
-Edit
-http://localhost:5173
-📦 Build for Production:
-bash
-Copy
-Edit
-npm run build
-👁️ Preview the Production Build:
-bash
-Copy
-Edit
-npm run preview
-This will serve the built app locally for testing.
-
-🌐 Deployment Instructions
-The project is deployed on Vercel using a vercel.json file for routing and build configuration.
-
-Live Demo:
-http://journey-assignment-1-two.vercel.app/
-
-To deploy it yourself:
-Push to GitHub:
-
-bash
-Copy
-Edit
-git push origin main
-Connect GitHub to Vercel:
-
-Go to Vercel and link your repository.
-Set Vercel Build Settings:
-
-Build Command: npm run build
-Output Directory: dist
-🎉 Future Improvements
-🤖 Integrate with real OpenAI API for smarter responses
-💾 Backend for storing chat history
-🌐 Multi-language support
-👤 Author
-Ora Bitbol – http://journey-assignment-1-two.vercel.app/
-
-GitHub Repository: https://github.com/orabitbol/Journey-Assignment
+```plaintext
+📂 src
+├── 📁 components
+│   ├── ChatHeader.tsx
+│   ├── MessageInput.tsx
+│   ├── MessageList.tsx
+│   └── ThemeSwitch.tsx
+│
+├── 📁 pages
+│   ├── chat
+│   │   └── Chat.tsx
+│   └── settings
+│       └── Settings.tsx
+│
+├── App.tsx
+├── main.tsx
+└── utils
