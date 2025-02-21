@@ -83,12 +83,12 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 └── index.html
 
 
-##Requirements:
+### Requirements:
 
 - **Node.js** (version 14 or higher)
 - **npm** or **yarn** package manager
 
-##Installation:
+### Installation:
 
 
 1. **Clone the Repository**:
