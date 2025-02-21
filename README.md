@@ -81,97 +81,35 @@ This project is an AI-powered consulting chat that simulates an interactive conv
 ├── main.tsx
 ├── app.css
 └── index.html
-📥 Getting Started
-✅ Prerequisites
-Node.js (v14.x or later)
-npm (v6.x or later) or yarn
-🧑‍💻 1. Clone the Repository
-bash
-Copy
-Edit
+
+
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
 git clone https://github.com/orabitbol/Journey-Assignment.git
 cd Journey-Assignment
-📦 2. Install Dependencies
-Using npm:
+   ```
 
-bash
-Copy
-Edit
-npm install
-Or using yarn:
+2. **Install Dependencies**:
 
-bash
-Copy
-Edit
-yarn install
-🏃‍♂️ 3. Run the App Locally
-Start the development server:
+   ```Using npm:
+   npm install ->  npm start
+   ```
 
-bash
-Copy
-Edit
-npm run dev
-Or with yarn:
+   
+3. **Run the App Locally**:
 
-bash
-Copy
-Edit
-yarn dev
-The app will be available at:
+   ```Start the development server:
+   npm install -> npm run dev
+   ```
 
-arduino
-Copy
-Edit
-http://localhost:5173
-📦 Build for Production
-To build the app for production, run:
-
-bash
-Copy
-Edit
-npm run build
-Or with yarn:
-
-bash
-Copy
-Edit
-yarn build
-This will generate a dist/ folder with optimized static files.
-
-👁️ Preview the Production Build
-You can preview the production build locally using:
-
-bash
-Copy
-Edit
-npm run preview
-Or with yarn:
-
-bash
-Copy
-Edit
-yarn preview
-🌐 Deployment Instructions
-The project is deployed on Vercel using a vercel.json file for routing and build configuration.
 
 🌟 Live Demo:
 http://journey-assignment-1-two.vercel.app/
 
-🛠️ To deploy it yourself:
-Push to GitHub:
 
-bash
-Copy
-Edit
-git push origin main
-Connect GitHub to Vercel:
-
-Go to Vercel and link your repository.
-Set Vercel Build Settings:
-
-Build Command: npm run build
-Output Directory: dist
-Set Up Routing (if needed):
 
 Ensure vercel.json handles routing for React Router.
 🎉 Future Improvements
@@ -179,6 +117,6 @@ Ensure vercel.json handles routing for React Router.
 💾 Backend for storing chat history
 🌐 Multi-language support
 👤 Author
-Ora Bitbol – http://journey-assignment-1-two.vercel.app/
+OrAbitbol – http://journey-assignment-1-two.vercel.app/
 
 GitHub Repository: https://github.com/orabitbol/Journey-Assignment
